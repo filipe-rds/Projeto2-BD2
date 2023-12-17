@@ -1,9 +1,9 @@
-// Consultas
+  // Consultas
 
-// 1. Duas Consultas com Pelo Menos Filtros Diversos (IN, GT, etc), Sem Projeção:
+  // 1. Duas Consultas com Pelo Menos Filtros Diversos (IN, GT, etc), Sem Projeção:
 
-// a) Filtro usando `$in` na Coleção `Atendimento` para encontrar atendimentos por tipo de serviço:
-db.Atendimento.find({
+  // a) Filtro usando `$in` na Coleção `Atendimento` para encontrar atendimentos por tipo de serviço:
+  db.Atendimento.find({
     "servico": { "$in": ["Manutenção", "Suporte Técnico"] }
   })
   

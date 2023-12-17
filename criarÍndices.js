@@ -3,7 +3,7 @@
 /*
 1.Índice na Coleção Atendimento para o campo data_atendimento:
 
-Este índice é útil se você planeja realizar consultas frequentes baseadas na data de atendimento. A indexação desse campo facilitará a ordenação e a busca eficiente por atendimentos em um intervalo de datas específico.\
+Este índice é útil se você planeja realizar consultas frequentes baseadas na data de atendimento. A indexação desse campo facilitará a ordenação e a busca eficiente por atendimentos em um intervalo de datas específico.
 
 */
 db.Atendimento.createIndex({ "data_atendimento": 1 })
@@ -15,7 +15,3 @@ Se você planeja realizar consultas frequentes que envolvem a filtragem de atend
 
 */
 db.Atendimento.createIndex({ "funcionario._id": 1, "cliente._id": 1 })
-
-
-
-
