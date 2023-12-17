@@ -1,3 +1,98 @@
-{
-    "_comentário": "Json responsável por preencher atendimentos"
-}
+[
+    {
+      "servico": ["Manutenção", "Instalação"],
+      "data_atendimento": "15-01-2023",
+      "relatorio": "http://relatorio1.com",
+      "funcionario": {
+        "_id": {
+          "$oid": "5f63a2b656ea5b8f64b1f0c5"
+        },
+        "nome": "João Silva",
+        "email": "joao.silva@email.com"
+      },
+      "cliente": {
+        "_id": {
+          "$oid": "5f63a2b656ea5b8f64b1f0c6"
+        },
+        "nome": "Carlos Santos",
+        "telefone": "123456789"
+      }
+    },
+    {
+      "servico": ["Suporte Técnico"],
+      "data_atendimento": "20-02-2023",
+      "relatorio": "http://relatorio2.com",
+      "funcionario": {
+        "_id": {
+          "$oid": "5f63a2b656ea5b8f64b1f0c7"
+        },
+        "nome": "Maria Oliveira",
+        "email": "maria.oliveira@email.com"
+      },
+      "cliente": {
+        "_id": {
+          "$oid": "5f63a2b656ea5b8f64b1f0c8"
+        },
+        "nome": "Ana Oliveira",
+        "telefone": "987654321"
+      }
+    },
+    {
+      "servico": ["Desenvolvimento", "Consultoria"],
+      "data_atendimento": "10-03-2023",
+      "relatorio": "http://relatorio3.com",
+      "funcionario": {
+        "_id": {
+          "$oid": "5f63a2b656ea5b8f64b1f0c9"
+        },
+        "nome": "Carlos Mendes",
+        "email": "carlos.mendes@email.com"
+      },
+      "cliente": {
+        "_id": {
+          "$oid": "5f63a2b656ea5b8f64b1f0cc"
+        },
+        "nome": "Paulo Lima",
+        "telefone": "555555555"
+      }
+    },
+    {
+      "servico": ["Análise de Sistemas", "Treinamento"],
+      "data_atendimento": "05-04-2023",
+      "relatorio": "http://relatorio4.com",
+      "funcionario": {
+        "_id": {
+          "$oid": "5f63a2b656ea5b8f64b1f0ca"
+        },
+        "nome": "Juliana Santos",
+        "email": "juliana.santos@email.com"
+      },
+      "cliente": {
+        "_id": {
+          "$oid": "5f63a2b656ea5b8f64b1f0cd"
+        },
+        "nome": "Mariana Silva",
+        "telefone": "333333333"
+      }
+    },
+    {
+      "servico": ["Manutenção", "Treinamento"],
+      "data_atendimento": "20-05-2023",
+      "relatorio": "http://relatorio5.com",
+      "funcionario": {
+        "_id": {
+          "$oid": "5f63a2b656ea5b8f64b1f0cb"
+        },
+        "nome": "Ricardo Pereira",
+        "email": "ricardo.pereira@email.com"
+      },
+      "cliente": {
+        "_id": {
+          "$oid": "5f63a2b656ea5b8f64b1f0ce"
+        },
+        "nome": "Lucas Oliveira",
+        "telefone": "111111111"
+      }
+    }
+  ]
+  
